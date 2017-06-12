@@ -2,8 +2,10 @@
 <html>
 
 <head>
+  <link rel="shortcut icon" href="img/ping.png">
   <link href="css/styles.css" rel="stylesheet" style="text/css">
   <link href="css/bootstrap.min.css" rel="stylesheet" style="text/css">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 
   <meta charset="utf-8">
   <title>Pingpong</title>
@@ -18,51 +20,54 @@
   </section>
   <!-- SECOND SECTION: THE ABOUT PINGPONG COLUMN -->
   <section>
-    <div class="container">
-      <div class="col-md-4">
-        <h2>About Ping Pong</h2>
-        <h4>Created by:</h4>
-        <p>Christine Wasike</p>
+    <div class="container-fluid"id="main">
+      <div class="row">
+        <div class="well well-lg col-md-4"id="about">
+          <h2>About Ping Pong</h2>
+          <h4>Created by:</h4>
+          <p>Christine Wasike</p>
 
-        <h4>GitHub Username/URL:</h4>
-        <p>ChristineWasike</p>
+          <h4>GitHub Username/URL:</h4>
+          <p>ChristineWasike</p>
 
-
-      </div>
-
-  </section>
-                            <!-- THIRD SECTION: WHERE THE RULES ARE AND THE INPUT AND OUTPUT IS DISPLAYED -->
-  <section>
-    <div class="col-md-8">
-      <h2>Let's play!</h2>
-      <h3>Rules:</h3>
-      <p>
-        Ping Pong will count up to your number from 1 with the following exceptions:
-      </p>
-      <p>
-        <ul>
-          <li>Numbers divisible by 3 become "ping"!</li>
-          <li>Numbers divisible by 5 become "pong"!</li>
-          <li>Numbers divisible by 3 and 5 become "pingpong"!</li>
-        </ul>
-      </p>
-
-      <form class="form-horizontal" id="game">
-        <div class="form-group">
-          <label for="">Enter your number here:</label>
-          <input type="number" name="" value="" class="form-control" id="numeral">
-          <button type="submit" class="btn" name="button">Ping Pong!</button>
 
         </div>
 
-      </form>
-      <p><span id="results"></span></p>
+                              <!-- THIRD SECTION: WHERE THE RULES ARE AND THE INPUT AND OUTPUT IS DISPLAYED -->
+
+      <div class="well well-lg col-md-8"id="play">
+        <h2>Let's play!</h2>
+        <h3>Rules:</h3>
+        <p>
+          Ping Pong will count up to your number from 1 with the following exceptions:
+        </p>
+        <p>
+          <ul>
+            <li>Numbers divisible by 3 become "ping"!</li>
+            <li>Numbers divisible by 5 become "pong"!</li>
+            <li>Numbers divisible by 3 and 5 become "pingpong"!</li>
+          </ul>
+        </p>
+
+        <form class="form-horizontal" id="game">
+          <div class="form-group">
+            <label for="">Enter your number here:</label>
+            <input type="number" name="" value="" class="form-control" id="numeral">
+            <button type="submit" class="btn butt" name="button">Ping Pong</button>
+
+          </div>
+
+        </form>
+        <p><span id="results"></span></p>
+
+      </div>
+
+    </section>
 
     </div>
 
-  </section>
+    </div>
 
-  </div>
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/script.js" ></script>
 </body>

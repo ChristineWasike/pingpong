@@ -1,1 +1,33 @@
+body {
+  font-family: 'EB Garamond', serif;
+}
 
+#numeral {
+  width: 40%;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#main {
+  margin-top: -30px;
+}
+
+#about {
+  padding-bottom: 50.53%;
+  background-image: url(paper.jpg);
+  background-size: cover;
+}
+
+#play {
+  padding-bottom: 40%;
+  background-image: url(back1.gif);
+  background-size: auto;
+}
+
+.butt {
+  margin-left: 42%;
+  margin-top: -7.5%;
+}
